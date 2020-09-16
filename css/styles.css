@@ -1,0 +1,153 @@
+
+body{
+    font-family:'Montserrat', sans-serif;
+    text-align: center;
+}
+h1, h2, h3, h4, h5, h6{
+    font-family: 'Montserrat-Black';
+}
+h2, h3{
+    font-weight: bold;
+}
+p{
+    color: #8f8f8f;
+}
+#title{
+    text-align: left;
+ }
+ .container-fluid{
+     padding: 3% 15% 10%;
+}
+ .iphone-img{
+     transform: rotate(20deg);
+     width:50%;
+     position: absolute;
+     right: 30%;
+}
+
+/* Heading */
+.big-heading{
+    font-size: 3.5rem;
+    line-height: 1.2;
+}
+.section-heading{
+    font-size: 2.5rem;
+}
+
+/* Sections */
+.colored-section{
+    background-color: #ff4c68;
+    color: #ffffff;
+}
+.white-section{
+    background-color: #ffffff;
+}
+
+/* Navbar */
+
+.navbar{
+    padding: 0 0 4.5rem;
+}
+.nav-item{
+    padding: 0 18px;
+}
+.nav-link{
+    font-size: 1.2rem;
+    font-family: 'Montserrat-Light';
+}
+
+.download-button{
+    margin: 5% 1%;
+    padding: 5px 15px;
+}
+.navbar-brand{
+    font-size: 2.5rem;
+    font-family:'Ubuntu', sans-serif;
+}
+    
+    
+/* Features Section */
+
+#features{
+    padding: 7% 15%;
+    z-index: 1;
+    position: relative;
+}
+.feature-box{
+   padding: 0 5%;
+}
+.icon{
+    color: #ef8172;
+    margin-bottom: 1rem;
+}
+.icon:hover{
+    color: #ff4c68;
+}
+
+/* Testimonial Section */
+
+#testimonials{
+    background-color:#ef8172;
+}
+.testimonial-img{
+    width: 10%;
+    border-radius: 100%;
+    margin: 20px; 
+}
+.testimonial-text{
+    font-size: 2.5rem;
+}
+#press{
+    background-color:#ef8172;
+    padding-bottom: 3%;
+}
+.press-logo{
+    width: 15%;
+    margin: 20px 20px 30px; 
+
+}
+.carousel-item{
+    padding: 7% 15%;
+}
+
+/* Pricing Section */
+
+#pricing{
+    padding: 100px;
+}
+.pricing-column{
+    padding: 3% 2%;
+}
+.price-text{
+    font-size: 2.5rem;
+}
+
+/* Footer */
+
+#cta{
+    padding: 7% 15%;
+}
+#footer{
+    padding: 5% 15%;
+}
+.footer-icon{
+    padding: 1% 2%;
+}
+.footer-icon:hover{
+    color: rgb(146, 141, 141);
+}
+.cta-heading{
+    font-family:'Montserrat-Black';
+    font-size: 3.0rem;
+}
+
+@media(max-width: 1020px){
+    .iphone-img{
+        position: static;
+        transform: rotate(0);
+    }
+#title{
+    font-family:'Montserrat-Black';
+}
+
+}
